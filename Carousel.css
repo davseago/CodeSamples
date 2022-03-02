@@ -1,0 +1,43 @@
+.carousel {
+    height:100%;
+    margin:0;
+    width:100%;
+    
+}
+
+.image-slide {
+    height:100%;
+    width:100%;
+    transition: background-image .3s ease-in-out;
+    object-fit:fill;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color:#60c40f;
+}
+
+.slide-arrow {
+    color:#60c40f;
+    cursor:pointer;
+    font-size:2rem;
+    position:fixed;
+    top:50%;
+}
+
+.slide-arrow.right {
+    right:1rem;
+}
+
+.slide-arrow.left {
+    left:1rem;
+}
+
+.carousel-slides {
+    border-style:solid;
+    border-width:7px;
+    border-color:#545759;
+    border-radius: 20px;
+    overflow:hidden;
+}
+

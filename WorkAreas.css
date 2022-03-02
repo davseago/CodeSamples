@@ -1,0 +1,25 @@
+.mj-areas {
+    position: absolute;
+    top: 200px;
+    left:60px;
+    text-align:center;
+  }
+
+.mj-areas-grid {
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+  }
+
+.area-caption {
+    text-align: center;
+    display: block;
+  }
+
+.area-icon {
+    color: #000000;
+    text-align:center;
+    vertical-align:top;
+    display:inline-block;
+}
